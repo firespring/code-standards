@@ -1,0 +1,21 @@
+{
+	"name": "eslint-config-firespring",
+	"version": "1.0.0",
+	"description": "ESLint config for Firespring projects",
+	"main": "javascript/index.js",
+	"repository": "https://github.com/firespring/firespring-code-standards",
+	"dependencies": {
+		"eslint-config-standard": "^14.1.1",
+		"eslint-plugin-import": "^2.22.0",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"eslint-plugin-vue": "^7.0.0-beta.2"
+	},
+	"peerDependencies": {
+		"eslint": ">=7.7.0"
+	},
+	"devDependencies": {
+		"eslint": ">=7.7.0"
+	}
+}

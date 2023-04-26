@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ruleset name="Firespring PHP coding standards">
+    <!--  Speed up execution by running rules in parallel  -->
+    <arg name="parallel" value="75"/>
+
+    <!--  Show warnings and progress  -->
+    <arg value="wp"/>
+
+    <!--  Enable colors in the report screen output  -->
+    <arg name="colors"/>
+
+    <!--  Use the full report format  -->
+    <arg name="report" value="full"/>
+
+    <!--  Use the PSR-12 code standard  -->
+    <rule ref="PSR12"/>
+
+    <!-- Allow for line length of up to 150 characters -->
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="150" />
+            <property name="absoluteLineLimit" value="0" />
+        </properties>
+    </rule>
+</ruleset>

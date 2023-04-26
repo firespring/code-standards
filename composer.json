@@ -1,0 +1,12 @@
+{
+	"name": "firespring/code-standards",
+	"description": "A custom coding standard.",
+	"type": "library",
+	"license": "proprietary",
+	"require": {
+		"squizlabs/php_codesniffer": "^3.5"
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
